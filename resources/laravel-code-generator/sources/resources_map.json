@@ -1,0 +1,30 @@
+[
+    {
+        "model-name": "SubCategory",
+        "resource-file": "sub_categories.json"
+    },
+    {
+        "model-name": "UnitRelated",
+        "resource-file": "unit_relateds.json"
+    },
+    {
+        "model-name": "Products",
+        "resource-file": "products.json"
+    },
+    {
+        "model-name": "Category",
+        "resource-file": "categories.json"
+    },
+    {
+        "model-name": "subCategory",
+        "resource-file": "sub_categories.json"
+    },
+    {
+        "model-name": "Product",
+        "resource-file": "products.json"
+    },
+    {
+        "model-name": "Region",
+        "resource-file": "regions.json"
+    }
+]

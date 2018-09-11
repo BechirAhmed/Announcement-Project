@@ -1,0 +1,135 @@
+/*resCarousel Css*/
+
+.outt {
+    display: none;
+}
+.p8{
+    margin-top: 25px;
+}
+
+.leftRs {
+    position: absolute;
+    margin: auto 20px;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    left: 0;
+    background: #b7b5b596;
+    padding: 0 3px;
+    border: 1px solid #b3b1b1;
+    width: 15px;
+    height: 15px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+}
+.leftRs .fa{
+    top: -5px;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+}
+
+.rightRs {
+    position: absolute;
+    margin: auto 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: #b7b5b596;
+    padding: 0 6px;
+    border: 1px solid #b3b1b1;
+    width: 15px;
+    height: 15px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+}
+
+.rightRs .fa{
+    top: -5px;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+}
+
+.resCarousel {
+    /*float: left;
+    overflow: hidden;*/
+    width: 110%;
+    position: relative;
+}
+
+.resCarousel-inner {
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.resCarousel-inner .item {
+    display: inline-block;
+    font-size: 14px;
+    white-space: initial;
+}
+
+
+/*banner*/
+
+.banner {
+    overflow: hidden !important;
+}
+
+
+/*tile css*/
+
+.resCarousel-inner .item .tile {
+    background: white;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.resCarousel-inner .item .tile:nth-child(1){
+    border-left: 1px solid #ccc;
+}
+
+.resCarousel-inner .item .tile:nth-last-child{
+    border-right: 1px solid #ccc;
+}
+
+
+/*animation*/
+
+.resCarousel[data-animator="lazy"] .item {
+    transition: .6s ease all;
+}
+
+@media (max-width: 767px) {
+    .leftRs,
+    .rightRs {
+        /*display: none;*/
+    }
+    .resCarousel-inner {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width:767px){
+    .ResSlid0 .item {
+        width: 50%
+    }
+}
+@media (min-width:768px){
+    .ResSlid0 .item {
+        width: 23%
+    }
+}
+@media (min-width:992px){
+    .ResSlid0 .item {
+        width: 23%
+    }
+}
+
+
+/*resCarousel Css End*/
